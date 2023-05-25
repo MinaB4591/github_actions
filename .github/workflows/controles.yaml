@@ -15,6 +15,7 @@ jobs:
 
       - name: Install pytest and flake8
         run: |
+	  python -m pip insall --upgrade pip
           pip install pytest
           pip install flake8
 
